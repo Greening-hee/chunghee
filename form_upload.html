@@ -1,0 +1,25 @@
+
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <form action="http://localhost/upload.php" method="post" enctpy="multipart/form-data">
+      <input type="file" name="profile">
+      <input type="submit">
+    </form>
+
+  </body>
+
+   <p>
+    파일선택 후, 서버에 제출하는 것 까지 <br>
+    서버쪽 컴퓨터에 저장되도록 <br>
+    저장된 파일을 화면에 표시해 줄 것임 <br>
+    실습환경에선 서버구축이 되어있지 않기 떄문에 실행은 안됨 <br>
+    예시는 php이나 java 나 ub도 마찬가지이다 <br>
+    파일업로드 기능이 하나라도 있다면, <br>
+    전송방식은 post / 잉크타입은 multipart/form-data로 보내야한다. <br>
+    서버에서 판단함.<br>
+      name 값도 서버에서 요청
+  </p>
+</html>

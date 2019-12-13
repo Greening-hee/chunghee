@@ -1,0 +1,29 @@
+<html>
+  <head>
+      <meta charset="utf-8">
+  </head>
+  <body>
+     <p>
+        <form action="http://localhost/method.php" method="post">
+          <input type="text" name="id">
+          <input type="password" name="pwd">
+          <input type="submit">
+        </form>
+      </p>
+
+  </body>
+
+
+      <p>
+        겟 방식과 서브방식 <br>
+        지금까지는 겟 방식을 받음<br>
+        선행학습 : 로그인 기능 만들기 <br>
+                  (웹브라우저를 서버로 전송했을때, 서버의 처리방법을 알려주는 수업이다)
+       </p>
+       <p>
+         get 방식은 비밀번호가 url에 그대로 기록됨 <br>
+         개인정보 유출이므로 변경 필요 /post 방식 방법 필요 <br>
+         기본적으로는 get 방식으로 지정되어있다. form은 post로 바꾸어 할 것 <br>
+         서버쪽에서 get인지 post 인지 전달 받아야 한다.
+        </p>
+</html>
